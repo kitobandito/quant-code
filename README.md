@@ -6,7 +6,7 @@ such as latency, liquidity issues, and unforeseen market events
 
 ## what the code includes:
 
-1. advanced volume filter
+1. volume filter
 replaces the single-candle check with a two-part confirmation
 
 2. sustained volume expansion
