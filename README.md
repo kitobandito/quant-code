@@ -18,7 +18,7 @@ uses the on-balance volume indicator to confirm that the volume is supporting th
 4. ATR-based exits
 replaces the unreliable percentage-based stop-loss with levels based on the Average True Range (ATR).This adjusts risk and reward targets to the current market volatility
 
-5. enhanced performance report
+5. performance report
 calculates and displays metrics such as Net Profit, Win Rate, Profit Factor, and Max Drawdown
 
 6. intrabar risk simulation
