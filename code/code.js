@@ -1,4 +1,4 @@
-// part 1: indicator calculations
+// part 1 indicator calculations
 
 function calculateEMA(data, period) {
   if (!Array.isArray(data) || data.length < period) return [];
@@ -50,7 +50,7 @@ function calculateADX(highs, lows, closes, period = 14) {
 }
 
 /**
- * calculates on-balance volume (OBV) for volume confirmation
+ * calculates obv
  */
 function calculateOBV(closes, volumes) {
   if (!Array.isArray(closes) || closes.length !== volumes.length) return [];
@@ -64,7 +64,7 @@ function calculateOBV(closes, volumes) {
 }
 
 /**
- * calculates simple moving average (SMA).
+ * calculates sma
  */
 function calculateSMA(data, period) {
   if (!Array.isArray(data) || data.length < period) return [];
@@ -77,7 +77,7 @@ function calculateSMA(data, period) {
 }
 
 
-//  part 2: the portfolio class 
+//  part 2 portfolio class 
 
 class Portfolio {
   constructor(initialCapital, riskPerTrade, transactionCost, slippage) {
