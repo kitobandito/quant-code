@@ -22,4 +22,4 @@ replaces the unreliable percentage-based stop-loss with levels based on the Aver
 calculates and displays metrics such as Net Profit, Win Rate, Profit Factor, and Max Drawdown
 
 6. intrabar risk simulation
-Implements a basic but effective intrabar simulation to check if stop-losses were hit during the candle, not just at the close.
+a basic but effective intrabar simulation to check if stop-losses were hit during the candle, not just at the close
