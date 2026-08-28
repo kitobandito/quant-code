@@ -1,4 +1,4 @@
-// part 1 indicator calculations
+// 1 indicator calculations
 
 function calculateEMA(data, period) {
   if (!Array.isArray(data) || data.length < period) return [];
@@ -77,7 +77,7 @@ function calculateSMA(data, period) {
 }
 
 
-//  part 2 portfolio class 
+//  2 portfolio class 
 
 class Portfolio {
   constructor(initialCapital, riskPerTrade, transactionCost, slippage) {
